@@ -13,9 +13,6 @@ env:
         - PYTHON_VERSION=3.6
         - SETUP_CONDA=true
 
-    jobs:
-        - SETUP_CMD='egg_info' TEST_CMD='python --version'
-
 jobs:
     include:
         # pytest dev version
